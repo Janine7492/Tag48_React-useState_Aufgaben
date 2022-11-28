@@ -1,0 +1,53 @@
+html {
+    background-color: dimgrey;
+}
+
+.App {
+    width: 75%;
+    margin: 10rem auto;
+    text-align: center;
+    background-color: lightgrey;
+    padding: 5rem;
+}
+
+.dayTime {
+    background-image: url("../src/img/mosi-knife--PVgDgKXgZA-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    object-fit: cover;
+    padding: 5rem;
+    color: rgb(28, 94, 120);
+}
+
+.dayTime button {
+    background-color: skyblue;
+    box-shadow: 2px 2px 5px dimgrey;
+}
+
+.nightTime {
+    background-image: url("../src/img/jeremy-thomas-E0AHdsENmDg-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    object-fit: cover;
+    padding: 5rem;
+    color: whitesmoke;
+}
+
+.nightTime button {
+    background-color: rgb(132, 101, 160);
+    color: whitesmoke;
+    box-shadow: 2px 2px 5px black;
+}
+
+p {
+    font-size: 4rem;
+    font-weight: bolder;
+    /* -webkit-text-stroke: 2px black; */
+}
+
+button {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 10px;
+}

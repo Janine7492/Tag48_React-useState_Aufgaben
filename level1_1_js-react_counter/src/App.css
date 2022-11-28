@@ -1,0 +1,19 @@
+.App {
+    border: 10px solid grey;
+    width: 50%;
+    margin: 5rem auto;
+    padding: 3rem;
+    text-align: center;
+}
+
+.buttonSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+button {
+    width: 30%;
+    margin: 1rem auto;
+    padding: 0.5rem;
+}

@@ -1,0 +1,30 @@
+html {
+    background-color: lightgray;
+}
+
+.App {
+    background-color: dimgrey;
+    width: 50%;
+    margin: 5rem auto;
+    padding: 2rem;
+    color: whitesmoke;
+    border: 5px solid white;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    width: 40px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+}
+
+p {
+    border-top: 1.5px solid white;
+    padding-top: 2rem;
+}
